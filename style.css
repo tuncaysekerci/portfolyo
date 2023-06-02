@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 85%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("https://media.istockphoto.com/id/846818776/vector/young-male-teacher-is-writing-chalk-on-a-school-blackboard.jpg?s=612x612&w=0&k=20&c=cck-P3BHefU2uNrSfbAuw7fBp_M1uqaa7ghIqitgZPM="); }
+  .img2 { background-image: url("https://www.shutterstock.com/shutterstock/photos/245540329/display_1500/stock-vector-chemistry-background-chemistry-inscription-vector-illustration-245540329.jpg"); }
+  .img3 { background-image: url(" https://www.folyosepeti.com/duvar-poster-doga-100419445-mykagitcim-duvar-posterleri-doga-13607-12-B.jpg"); }
+  .img4 { background-image: url(" https://i20.haber7.net/resize/1280x720//haber/haber7/photos/2020/29/tabiatin_kalbi_bolunun_doga_harikasi_guzellikleri_1594630055_9045.jpg"); }
+  
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  .card{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+  }
+   
+ .card-img-overlay{
+  color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+ form{
+  display: contents;
+ justify-content: center;
+ align-items: center;
+ }
+
+ #example{
+  
+  width: 20%;
+  border: 1px solid black;
+ }
+    
+ footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
